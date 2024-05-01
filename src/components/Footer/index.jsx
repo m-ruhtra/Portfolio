@@ -1,7 +1,9 @@
 export const Footer = () => {
     return(
         <footer>
-                <h2>Arthur Miguel Rodrigues</h2>
+                <p className="paragraph sm">
+                    Arthur Miguel Rodrigues | Todos os direitos reservados
+                </p>
         </footer>
     )
 };

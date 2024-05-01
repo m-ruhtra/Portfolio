@@ -4,9 +4,9 @@ export const ProjectCard = ({ project }) => {
             <img src={project.img} alt={project.altImg} />
 
             <div>
-                <h3>{project.name}</h3>
+                <h3 className="title xsm">{project.name}</h3>
 
-                <button>Saiba mais</button>
+                <button className="text btn">Saiba mais</button>
             </div>
         </li>
     )

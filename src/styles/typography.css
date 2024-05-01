@@ -1,0 +1,39 @@
+.title{
+    font-family: var(--font-primary);
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.title.md{
+    font-size: 1.75rem;
+}
+
+.title.sm{
+    font-size: 1.5rem;
+}
+
+.title.xsm{
+    font-size: 1.25rem;
+}
+
+.paragraph{
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.paragraph.sm{
+    font-size: 0.85rem;
+}
+
+.text{
+    font-family: var(--font-primary);
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.text.btn{
+    font-size: 1rem;
+}

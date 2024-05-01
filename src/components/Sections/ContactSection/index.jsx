@@ -5,7 +5,7 @@ import iconGithub from "../../../assets/icons/iconGithub.svg";
 export const ContactSection = () => {
     return(
         <section>
-            <h3>Contatos</h3>
+            <h3 className="title sm">Contatos</h3>
 
             <nav>
                 <a href="https://wa.link/mydclk" target="_blank">
