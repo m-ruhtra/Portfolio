@@ -1,8 +1,12 @@
 :root{
     --font-primary: 'Ubuntu', sans-serif;
     --font-secondary: 'Inter', sens-serif;
+
+    --color-white: #F0F0F2;
+    --color-blue: #010826;
+    --color-grey: #a1a1a1;
 }
 
 body{
-    background: #010826;
+    background: var(--color-blue);
 }
