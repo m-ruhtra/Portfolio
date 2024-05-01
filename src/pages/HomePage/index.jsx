@@ -1,5 +1,6 @@
 import { DefaultTemplate } from "../../components";
 import { BannerSection, ProjectsSection, TechSection } from "../../components/Sections";
+import { ContactSection } from "../../components/Sections/ContactSection";
 
 export const HomePage = () => {
     return(
@@ -8,6 +9,7 @@ export const HomePage = () => {
                 <BannerSection />
                 <TechSection />
                 <ProjectsSection />
+                <ContactSection />
             </DefaultTemplate>
         </>
     )
