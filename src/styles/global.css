@@ -1,0 +1,8 @@
+:root{
+    --font-primary: 'Ubuntu', sans-serif;
+    --font-secondary: 'Inter', sens-serif;
+}
+
+body{
+    background: #f2f2f2;
+}
