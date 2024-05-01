@@ -1,3 +1,3 @@
-import { Header } from "./Header";
+import { DefaultTemplate } from "./DefaulTemplate";
 
-export { Header };
+export { DefaultTemplate };

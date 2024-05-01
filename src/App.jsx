@@ -1,10 +1,10 @@
-import { Header } from "./components"
+import { HomePage } from "./pages/HomePage"
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <HomePage />
     </>
   )
 }
