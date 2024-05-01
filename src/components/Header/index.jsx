@@ -1,14 +1,28 @@
+import styles from "./style.module.css";
+
 export const Header = () => {
     return(
         <header>
-            <h1 className="title">Arthur Miguel Rodrigues</h1>
-            <nav>
-                <ul>
-                    <li><a className="title nav-header" href="#">Habilidades</a></li>
-                    <li><a className="title nav-header" href="#">Projetos</a></li>
-                    <li><a className="title nav-header" href="#">Contatos</a></li>
-                </ul>
-            </nav>
+            <div className="container header">
+                <div className={styles.header_box}>
+                    <h1 className="title white">&lt;Arthur Miguel Rodrigues /&gt;</h1>
+                    <nav className={styles.header_nav}>
+                        <ul className={styles.nav_box}>
+                            <li>
+                                <a className="title white" href="#">./Habilidades</a>
+                            </li>
+
+                            <li>
+                                <a className="title white" href="#">./Projetos</a>
+                            </li>
+
+                            <li>
+                                <a className="title white" href="#">./Contatos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
     )
 };
