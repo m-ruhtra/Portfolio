@@ -2,10 +2,12 @@ import { ProjectList } from "./ProjectsList";
 
 export const ProjectsSection = () => {
     return(
-        <section>
-            <h2 className="title sm">Projetos</h2>
+        <section className="container">
+            <div >
+                <h2 className="title sm">Projetos</h2>
 
-            <ProjectList />
+                <ProjectList />
+            </div>
         </section>
     )
 };

@@ -1,0 +1,19 @@
+.section_box{
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: 2rem;
+
+    padding: 5rem;
+}
+
+.div_btns_section{
+    display: flex;
+    flex-direction: row;
+
+    gap: 4rem;
+}

@@ -4,9 +4,24 @@
 
     --color-white: #F0F0F2;
     --color-blue: #010826;
+    --color-lightBlue:  rgba(105, 164, 216, 0.706);
     --color-grey: #a1a1a1;
 }
 
 body{
     background: var(--color-blue);
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1.5px solid var(--color-grey);
+    border-radius: 10px;
+
+    background-color: rgba(105, 164, 216, 0.706);
 }
