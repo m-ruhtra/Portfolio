@@ -7,13 +7,24 @@ export const BannerSection = () => {
                 <div>
                     <h2 className="title md">Olá, eu sou o <span>Arthur Miguel :&#41;</span></h2>
                     <p className="paragraph">
-                        Desenvolvedor Front-End criando experiências por meio da tecnologia
+                        Desenvolvedor Front-End criando experiências por meio da tecnologia.
                     </p>
                 </div>
 
                 <div className={styles.div_btns_section}>
-                    <a className="text btn" href="#">Projetos</a>
-                    <a className="text btn" href="#">GitHub</a>
+                    <a 
+                        className="text btn" 
+                        href="#projectSection"
+                    >
+                        Projetos
+                    </a>
+                    <a 
+                        className="text btn" 
+                        href="https://github.com/m-ruhtra" 
+                        target="_blank"
+                    >
+                        GitHub
+                    </a>
                 </div>
             </div>
             

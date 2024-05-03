@@ -4,7 +4,7 @@ import iconGithub from "../../../assets/icons/iconGithub.svg";
 
 export const ContactSection = () => {
     return(
-        <section>
+        <section id="contactSection">
             <div className="container">
                 <h3 className="title sm">Contatos</h3>
 

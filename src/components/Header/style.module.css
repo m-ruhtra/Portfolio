@@ -33,23 +33,21 @@
    }
 
    .menu{
-        width: 92vw;
+        width: 90%;
         height: 50vh;
 
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
+        
         gap: 5;
         
-        background: rgba(100, 100, 100, 0.979);
         position: absolute;
-
-        top: 120px;
-
+        top: 150px;
+        
+        background: rgba(100, 100, 100, 0.979);
         border-radius: 10px;
-
         box-shadow: 1px 1px 10px #A0CCF2;
    }
 
