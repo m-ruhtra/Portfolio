@@ -3,7 +3,7 @@ import { ProjectList } from "./ProjectsList";
 
 export const ProjectsSection = () => {
     return(
-        <section id="projectSection" className="container">
+        <section id="projectsSection" className="container">
             <div className={styles.section_box}>
                 <h2 className="title sm">Projetos</h2>
 

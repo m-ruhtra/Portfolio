@@ -14,7 +14,7 @@ export const BannerSection = () => {
                 <div className={styles.div_btns_section}>
                     <a 
                         className="text btn" 
-                        href="#projectSection"
+                        href="#projectsSection"
                     >
                         Projetos
                     </a>
