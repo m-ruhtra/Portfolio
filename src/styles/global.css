@@ -25,3 +25,8 @@ body{
 
     background-color: rgba(105, 164, 216, 0.706);
 }
+
+#btn_card{
+    border: none;
+    background-color: rgb(1, 8, 38); 
+}

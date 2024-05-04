@@ -13,6 +13,7 @@ export const projectsData = [
             "CSS",
         ],
         hiperlink: "https://food-app-landing-page-xi.vercel.app/",
+        repository: "https://github.com/m-ruhtra/food-app-landing-page",
         img: projectFoodApp,
         altImg: `Imagem do Projeto FoodApp Landing-Page`,
     },
@@ -31,6 +32,7 @@ export const projectsData = [
             "CRUD",    
         ],
         hiperlink: "https://kenzie-hub-six-virid.vercel.app/",
+        repository: "https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-hub_m-ruhtra",
         img: projectKenzieHub,
         altImg: `Imagem do Projeto KenzieHub`,
     },
@@ -44,6 +46,7 @@ export const projectsData = [
             "SASS"    
         ],
         hiperlink: "https://nukenzie-mruhtra.vercel.app/",
+        repository: "https://github.com/Kenzie-Academy-Brasil-Developers/nu-kenzie_m-ruhtra",
         img: projectNuKenzie,
         altImg: `Imagem do Projeto NuKenzie`,
     },

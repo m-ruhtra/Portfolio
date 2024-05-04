@@ -1,9 +1,10 @@
+import styles from "./style.module.css";
 import { projectsData } from "../../../../data/projectsData";
 import { ProjectCard } from "./ProjectCard";
 
 export const ProjectList = () => {
     return(
-        <ul>
+        <ul className={styles.ul_box}>
             {
                 projectsData.map((project) => {
                     return(
