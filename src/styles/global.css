@@ -20,13 +20,11 @@ body{
     align-items: center;
     justify-content: center;
 
-    border: 1.5px solid var(--color-grey);
     border-radius: 10px;
 
     background-color: rgba(105, 164, 216, 0.706);
 }
 
 #btn_card{
-    border: none;
     background-color: rgb(1, 8, 38); 
 }

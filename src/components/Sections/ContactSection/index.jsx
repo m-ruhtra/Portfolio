@@ -48,7 +48,7 @@ export const ContactSection = () => {
 
                         <h2 className="title xsm">LinkedIn</h2>
                         <p className="paragraph">Arthur Miguel Rodrigues</p>
-                        <p className="paragraph sm">Vamos nos conextar?</p>
+                        <p className="paragraph sm">Vamos nos conectar?</p>
                     </div>
 
                     <div className={styles.div_link}>
