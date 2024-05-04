@@ -1,8 +1,8 @@
 export const Footer = () => {
     return(
-        <footer>
-                <p className="paragraph sm">
-                    Arthur Miguel Rodrigues | Todos os direitos reservados
+        <footer className="container footer">
+                <p className="paragraph xsm">
+                    - Desenvolvido por Arthur Miguel Rodrigues -
                 </p>
         </footer>
     )
