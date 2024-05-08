@@ -4,7 +4,7 @@
 
     --color-white: #F0F0F2;
     --color-blue: #010826;
-    --color-lightBlue:  rgba(105, 164, 216, 0.706);
+    --color-lightBlue: rgba(105, 164, 216, 0.706);
     --color-grey: #a1a1a1;
 }
 
@@ -22,9 +22,17 @@ body{
 
     border-radius: 10px;
 
-    background-color: rgba(105, 164, 216, 0.706);
+    background-color:var(--color-lightBlue);
 }
 
 #btn_card{
-    background-color: rgb(1, 8, 38); 
+    background-color: var(--color-blue); 
+}
+
+::-webkit-scrollbar{
+    width: 0.55rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-lightBlue);
 }

@@ -7,7 +7,7 @@ export const TechSection = () => {
             <div className={styles.section_box}>
                 <h2 className="title sm">Habilidades</h2>
 
-                <TechList />
+                <TechList className={styles.ul_box}/>
             </div>
         </section>
     )

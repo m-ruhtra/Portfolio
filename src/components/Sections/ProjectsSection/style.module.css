@@ -8,3 +8,9 @@
     
     gap: 2rem;
 }
+
+@media screen and (min-width: 609px){
+    .section_box{     
+        gap: 5rem;
+    }
+}

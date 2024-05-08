@@ -7,26 +7,28 @@ export const ProjectCard = ({ project }) => {
                 <img className={styles.card_img} src={project.img} alt={project.altImg} />
 
                 <div className={styles.card_infos}>
-                    <h3 className="title xsm">{project.name}</h3>
+                    <div className={styles.card_bannerInfos}>
+                        <h3 className="title xsm projects">{project.name}</h3>
 
-                    <div className={styles.card_btns}>
-                        <a 
-                            id="btn_card"
-                            className="text btn" 
-                            href={project.hiperlink} 
-                            target="blank"
-                        >
-                            Visitar
-                        </a>
+                        <div className={styles.card_btns}>
+                            <a 
+                                id="btn_card"
+                                className="text btn" 
+                                href={project.hiperlink} 
+                                target="blank"
+                            >
+                                Visitar
+                            </a>
 
-                        <a 
-                            id="btn_card"
-                            className="text btn" 
-                            href={project.repository} 
-                            target="blank"
-                        >
-                            &lt;code /&gt;
-                        </a>
+                            <a 
+                                id="btn_card"
+                                className="text btn" 
+                                href={project.repository} 
+                                target="blank"
+                            >
+                                &lt;code /&gt;
+                            </a>
+                        </div>
                     </div>
                 </div>
 

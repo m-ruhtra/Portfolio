@@ -12,9 +12,74 @@
     padding: 0;
 }
 
+.div_infos{
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.25rem;
+}
+
 .div_btns_section{
     display: flex;
     flex-direction: row;
 
     gap: 4rem;
+}
+
+.animation{
+    width: 100%;
+    background: transparent;
+
+    max-width: 400px;
+}
+
+.div_animation{
+    display: none;
+}
+
+@media screen and (min-width: 610px) {
+    .section_box{
+        height: 40vh;
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .div_infos{
+        padding-left: 0.5rem;
+    }
+
+    .div_animation{
+        width: 60%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 822px){
+    .section_box{
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 1118px) {
+    .section_box{
+        width: 100%;
+        height: 60vh;
+
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .div_infos{
+        padding-left: 2rem;
+    }
+
+    .div_animation{
+        width: 40%;
+    }
 }
