@@ -1,6 +1,6 @@
-import styles from "./style.module.css";
 import { projectsData } from "../../../../data/projectsData";
 import { ProjectCard } from "./ProjectCard";
+import styles from "./style.module.css";
 
 export const ProjectList = () => {
     return(

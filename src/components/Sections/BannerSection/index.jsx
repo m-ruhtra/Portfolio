@@ -1,5 +1,5 @@
+import imageBanner from "../../../assets/imgs/coding.png";
 import styles from "./style.module.css";
-import animation from "../../../assets/gifs/coding.png"
 
 export const BannerSection = () => {
     return(
@@ -7,7 +7,7 @@ export const BannerSection = () => {
             <div className={styles.section_box}>
                 <div className={styles.div_infos}>
                     <div>
-                        <h2 className="title md">Olá, eu sou o <span>Arthur Miguel :&#41;</span></h2>
+                        <h2 className="title md">Olá, eu sou o <span className={styles.spanText}>Arthur Miguel :&#41;</span></h2>
                         <p className="paragraph">
                             Desenvolvedor Front-End criando experiências por meio da tecnologia.
                         </p>
@@ -30,8 +30,8 @@ export const BannerSection = () => {
                     </div>
                 </div>
 
-                <div className={styles.div_animation}>
-                    <img className={styles.animation}src={animation} alt="Animação" />
+                <div className={styles.div_imageBanner}>
+                    <img className={styles.imageBanner}src={imageBanner} alt="Animação" />
                 </div>
             </div>
             

@@ -1,6 +1,6 @@
-import projectKenzieHub from "../assets/projects/projectKenzieHub.png";
-import projectNuKenzie from "../assets/projects/projectNuKenzie.png";
-import projectFoodApp from "../assets/projects/projectFoodAppLP.png";
+import projectKenzieHub from "../assets/imgs/projects/projectKenzieHub.png";
+import projectNuKenzie from "../assets/imgs/projects/projectNuKenzie.png";
+import projectFoodApp from "../assets/imgs/projects/projectFoodAppLP.png";
 
 export const projectsData = [
     {

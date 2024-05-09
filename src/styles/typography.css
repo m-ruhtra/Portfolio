@@ -24,6 +24,10 @@
     font-size: 1.50rem;
 }
 
+.title.linkMenu{
+    font-size: 1.75rem;
+}
+
 .paragraph{
     font-family: var(--font-secondary);
     font-weight: 400;

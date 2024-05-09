@@ -11,14 +11,13 @@
     gap: 2rem;
 }
 
-
-@media screen and (max-width: 608px){
+@media(max-width: 608px){
     .section_box{
         height: max-content;
     }
 }
 
-@media screen and (min-width: 609px){
+@media(min-width: 609px){
     .section_box{
         height: 50vh;
         
@@ -26,7 +25,7 @@
     }
 }
 
-@media screen and (min-width: 1118px){
+@media(min-width: 1118px){
     .section_box{
         height: 48vh;
     }
