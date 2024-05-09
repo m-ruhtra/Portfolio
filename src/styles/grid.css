@@ -26,6 +26,8 @@
     position: absolute;
     right: 1rem;
 
+    z-index: 1;
+
     padding: 1rem;
 
     border-radius: 8px;

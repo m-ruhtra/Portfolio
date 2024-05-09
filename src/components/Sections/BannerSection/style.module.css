@@ -35,7 +35,9 @@
     width: 100%;
     background: transparent;
 
-    max-width: 400px;
+    max-width: 380px;
+    position: relative;
+    margin-right: 1rem;
 
     animation: slideup 2.5s infinite alternate;
 }
@@ -97,5 +99,6 @@
 
     .div_imageBanner{
         width: 40%;
+        margin-right: 6rem;
     }
 }

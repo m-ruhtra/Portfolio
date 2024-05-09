@@ -1,8 +1,8 @@
-import styles from "./style.module.css";
 import iconWhatsapp from "../../../assets/icons/iconWhatsapp.svg";
 import iconLinkedin from "../../../assets/icons/iconLinkedin.svg";
 import iconGithub from "../../../assets/icons/iconGithub.svg";
 import iconEmail from "../../../assets/icons/iconEmail.svg";
+import styles from "./style.module.css";
 
 export const ContactSection = () => {
     return(

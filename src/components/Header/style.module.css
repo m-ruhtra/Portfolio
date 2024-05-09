@@ -20,3 +20,22 @@
     flex-direction: column;
     gap: 2rem;
 }
+
+.menu_nav{
+    display: none;
+}
+
+@media(min-width: 900px){
+    .menu_trigger{
+        display: none;
+    }
+
+    .menu_nav{
+        display: block;
+    }
+
+    .menu_links{
+        display: flex;
+        flex-direction: row;
+    }
+}
