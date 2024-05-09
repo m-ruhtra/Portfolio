@@ -71,3 +71,9 @@
         width: 45%;
     }
 }
+
+@media(max-width: 480px) {
+    .card_bannerInfos{
+        height: 70%;
+    }
+}
